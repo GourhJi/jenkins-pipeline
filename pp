@@ -10,7 +10,7 @@ pipeline {
         stage('Stage2:clone the project') {
             steps {
                 echo 'cloning the project'
-                git branch: 'main', url: 'https://github.com/GourhJi/'
+                git branch: 'main', url: 'https://github.com/GourhJi/jenkins-pipeline.git'
                 
             }
         }
