@@ -1,8 +1,6 @@
 pipeline {
     agent { label "node1" }
-    tools {
-        maven "maven3.9.9"
-    }
+    
     stages {
         stage('Stage1:preparing the build.....') {
             steps {
